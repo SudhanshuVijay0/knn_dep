@@ -2,7 +2,7 @@
 """
 Created on Thu Mar 11 14:26:59 2021
 
-@author: deepak
+@author: Sudhanshu
 """
 
 import streamlit as st 
@@ -58,8 +58,8 @@ def main():
       st.success('Model has predicted {}'.format(result))
       
     if st.button("About"):
-      st.subheader("Developed by Deepak Moud")
-      st.subheader("Head , Department of Computer Engineering")
+      st.subheader("Developed by Sudhanshu Vijay")
+      st.subheader("Student , Department of Computer Engineering")
 
 if __name__=='__main__':
   main()
