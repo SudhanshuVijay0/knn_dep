@@ -27,8 +27,8 @@ def predict_note_authentication(UserID, Gender,Age,EstimatedSalary):
   else:
     prediction="Item will not be purchased"
   print(prediction)
-  return prediction
-def main():
+  return 
+def main()
     #FrontEnd
     html_temp = """
    <div class="" style="background-color:blue;" >
@@ -61,5 +61,5 @@ def main():
       st.subheader("Developed by Sudhanshu Vijay")
       st.subheader("Student , Department of Computer Engineering")
 
-if __name__=='__main__':
+if __name__=='_main_':
   main()
